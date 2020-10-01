@@ -1,0 +1,322 @@
+/*웹페이지 상단 제목 꾸미는 css*/
+header{
+  font-size: 45px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-family:"Jeju Hallasan", cursive;
+}
+
+footer{
+  font-size: 15px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-family:"Jeju Hallasan", cursive;
+}
+
+/*html1 꾸며주는 css*/
+#page1 img{
+  width:300px;
+  height: 300px;
+}
+
+p{
+	 font-family:"Jeju Hallasan", cursive;
+	
+}
+#page1{
+  font-family:"Jeju Hallasan", cursive;
+  font-size: 40px;
+  color: black;
+  margin: 50px;
+}
+
+#you{
+    text-align:center;   /*버튼 중앙으로 오게 하기위해 center로 함*/
+}
+/*ul .없애는 css*/
+ul{
+	list-style:none;
+}
+
+pre {
+	font-size:20px;
+}
+
+/*a태그 밑줄 없애는 것*/
+header a { text-decoration:none;  
+    padding:2px;
+    color:white;
+    }
+/*html2에 있는 a태그 밑줄과 파란색 없앰.*/
+a{
+	text-decoration:none;  
+    padding:2px;
+    color:black;
+}
+iframe {
+  border: none;
+}
+
+#wait, .semo{
+  color: red;
+  font-weight:bold;
+
+}
+/*html2 박스  꾸며주는 css*/
+#page3{    
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 300px 1400px;
+  border: 15px double black;
+  border-radius: 20px;
+  padding: 55px;
+  grid-gap: 50px;
+  font-size: 35PX;
+   font-family:"Jeju Hallasan", cursive;
+}
+
+#page3_1{
+	font-size:25px;
+	 font-family:"Jeju Hallasan", cursive;
+	margin:50px;   
+}
+
+#b{
+  margin:10px 20px 30px 30px;
+}
+
+#b input{
+	
+	background-color:lightblue;
+    color:black;
+}
+
+
+#page1 td{
+  padding: 30px 70px 50px 70px;
+}
+
+
+#page2{
+   font-size: 40px;
+   border: 20px double black;
+   border-radius: 20px;
+   padding: 40px;
+   margin: 50px;
+}
+
+.im2 {
+  width: 300px;
+  height: 300px;
+}
+
+.bt1 {
+  width: 100px;
+  height: 50px;
+  background-color: gray;
+  color: white;
+  border: 3px double white;
+  font-size: 20px;
+}
+#btnproject2{
+     width: 100px;
+     height: 50px;
+     background-color: gray;
+     color: white;
+     border: 4px double white;
+     opacity: 10;
+ }
+
+
+form input{
+ width: 400px;
+ height: 80px;
+}
+#submitproject3{
+  width: 100px;
+  height: 50px;
+  background-color: gray;
+  color: white;
+  border: 3px double white;
+}
+
+/*html4 박스 꾸며주는css */
+#bb1{
+  display: grid;
+  grid-template-columns: 300px 900px;
+  padding: 50px;
+  grid-gap: 60px;
+  border: 15px double black;
+  margin: 50px;
+  border-radius: 20px;
+  font-size: 40px;
+
+}
+
+#page4{
+  font-size: 30px;
+  margin:100px;
+}
+
+#sub1, #sub2, #sub3, #sub4, #sub5{
+	width:800px;
+	height:150px;
+	margin-left:0;
+	margin-right:0;
+	border-radius:15px;
+}
+/*html3 박스 꾸며주는 css*/
+#a{
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 300px 1400px;
+  padding: 50px;
+  grid-gap: 60px;
+  border-radius: 20px;
+  border: 15px double black;
+  font-size: 40PX;
+}
+
+.animation{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */  
+  animation:
+    typing 4s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/*글자 타이핑하는 효과 주는 css*/
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* cursor 효과 */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+    }
+    50% {
+        border-color: black
+    }
+}
+
+#ip1{
+  font-size: 50px;
+  border: 2px solid black;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:lightblue;
+  font-family: 'Nanum Brush Script', cursive;
+  font-family:"Jeju Hallasan", cursive;
+  font-weight: bold;
+}
+
+#finsubmit{
+  background-color: gray;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  width: 150px;
+  height: 80px;
+  border-radius: 10px;
+  border: 4px solid white;
+}
+
+/*html5 꾸미는 css*/
+#page6{
+     margin:100px;
+     padding:20px;
+     font-size:30px;
+     font-family:"Jeju Gothic", sans-serif;
+     font-weight:bold;
+}
+
+
+#page7{
+	font-size:25px;
+     font-family:"Jeju Gothic", sans-serif;
+     font-weight:bold;
+     margin:20px;
+     padding:20px;
+}
+
+
+#headTitle{
+   width:800px;
+   height:200px;
+   border-radius: 10px;	
+}
+#bodyTitle{
+	width:800px;
+	height:200px;
+	border-radius: 10px;
+} 
+
+#bodyContext{
+	width:800px;
+	height:400px;
+	border-radius: 10px;	
+}
+
+#bodyplus{
+	width:800px;
+	height:400px;
+	border-radius: 10px;
+	
+}
+
+#putimage, #putimage2{
+	width:200px;
+	height:150px;
+	
+}
+
+#page6 td{
+	padding: 30px 60px 30px 90px;
+    border:5px solid white;
+    border-radius:20px;
+    font-size:30px;
+    background-color:lightgray;
+}
+
+/*html7 웹페이지형식 css*/
+#page home{
+	font-family:"Jeju Gothic", sans-serif;
+}
+selection {
+  display: flex;
+}
+
+nav,
+article,
+aside {
+  border: 2px solid gray;
+  flex:0.9;
+  padding: 30px;
+  font-size:30px;
+ 
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-size:30px;
+}
+
+
+article {
+  flex: 3;
+}
+
